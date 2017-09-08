@@ -4,27 +4,47 @@ defmodule TicTacToe do
   def call do
     IO.puts "Welcome to Tic Tac Toe!!!"
     IO.puts "\n"
-    board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+    board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
 
     TicTacToe.display_board(board)
+    board = move(board)
 
+    display_board(board)
+  end
 
-    # How do I gets? gets is a way to get string input from the command line
-    # How do I convert the String into an Integer to update that index in the board 
-    # (after subtracting 1)
+  def move(board) do
+    index = ask_for_move()
 
-    # "Where would you like to go? 1 - 9"
-    # 5
-    #    |   |  
-    # -----------
-    #    | X |   
-    # -----------
-    #    |   |  
+    case valid_move?(board, index) do
+      true -> List.insert_at(board, index, "X")
+      false -> move(board)
+    end
+  end
 
-    input = IO.gets("Where would you like to go? 1-9\n")
-    # what is the binding.pry of elixir?
+  def valid_move?(board, index) do
+    Enum.at(board, index) == " "
+  end
 
-    IEx.pry
+  def ask_for_move do
+    IO.gets("Where would you like to go? 1-9\n") |> 
+              process_move_input
+  end
+
+  def convert_input_to_index(integer_input) do
+    integer_input - 1
+  end
+
+  def convert_user_input(string_input) do
+    string_input |> String.trim |> Integer.parse
+  end
+
+  def process_move_input(string_input) do
+    case convert_user_input(string_input) do
+      {value, _} -> convert_input_to_index(value)
+      :error -> 
+        IO.puts "Please enter a valid integer, 1-9\n"
+        ask_for_move()
+    end
   end
 
   def display_board(board) do # display_board/1

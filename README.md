@@ -1,0 +1,30 @@
+# Welcome to Learning Elixir
+
+I'm Avi Flombaum and you're here to watch me learn elixir.
+
+## Schedule (all times are EST)
+
+Sept 8th: 4pm - 8pm
+Sept 15th: 4pm - 8pm
+Sept 23rd: 12pm - 4pm
+Sept 29th: 4pm - 8pm
+
+## Goals
+
+1. Build a procedural CLI Tic Tac Toe
+2. Build a OO? CLI Tic Tac Toe
+3. Build a Phoenix, web-baesd, no DB, Tic Tac Toe
+4. Build a Phoenix, web-based, DB, Tic Tac Toe
+
+## Where I'm At
+
+1. I've read [Programming Elixir](https://pragprog.com/book/elixir/programming-elixir) 2-3 times without writing a line of Elixir.
+
+2. I've read [Intro to Elixir](https://elixir-lang.org/getting-started/introduction.html) 2-3 times without writing a line of Elixir.
+
+3. I've read [Intro to Phoenix](https://hexdocs.pm/phoenix/overview.html) 1-2 times without writing a line of Elixir or trying a Phoenix application.
+
+4. I've read some project source code to see what's what.
+
+5. I program in Ruby, Javascript, and more for like 20 years.
+

@@ -12,8 +12,20 @@ I'm Avi Flombaum and you're here to watch me learn elixir as part of [Flatiron S
 ## Goals
 
 1. Build a procedural CLI Tic Tac Toe
+
 2. Build a OO? CLI Tic Tac Toe
+  - Refactoring the CLI TTT to not have to pass around board constantly.
+  - better knowledge of the player...
+  - potentially an 1 player vs computer?
+  - tests
+  - use mix, better structure (more elixir like)
+  - IEx.pry is in a loop (recursion, how to continue, and not abort)
+
+  - What else can we build to get exposure to Elixir in CLI before moving onto a web-based thing?
+  - Maybe a scraper / CLI?
+  
 3. Build a Phoenix, web-baesd, no DB, Tic Tac Toe
+
 4. Build a Phoenix, web-based, DB, Tic Tac Toe
 
 ## Where I'm At

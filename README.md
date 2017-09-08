@@ -1,13 +1,13 @@
 # Welcome to Learning Elixir
 
-I'm Avi Flombaum and you're here to watch me learn elixir.
+I'm Avi Flombaum and you're here to watch me learn elixir as part of [Flatiron School's](https://flatironschool.com) #BackToCode Challenge.
 
 ## Schedule (all times are EST)
 
-Sept 8th: 4pm - 8pm
-Sept 15th: 4pm - 8pm
-Sept 23rd: 12pm - 4pm
-Sept 29th: 4pm - 8pm
+- Sept 8th: 4pm - 8pm
+- Sept 15th: 4pm - 8pm
+- Sept 23rd: 12pm - 4pm
+- Sept 29th: 4pm - 8pm
 
 ## Goals
 
@@ -28,3 +28,8 @@ Sept 29th: 4pm - 8pm
 
 5. I program in Ruby, Javascript, and more for like 20 years.
 
+## Streams
+
+Watch Live at:
+
+1. https://twitch.tv/flatironschool

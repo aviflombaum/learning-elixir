@@ -65,6 +65,8 @@ defmodule TicTacToe do
 
   def current_player(board) do
     if board |> turn_count |> Integer.is_odd, do: "O", else: "X"
+    # if turn_count(board) |> Integer.is_odd, do: "O", else: "X"
+    # board.turn_count.odd? ? "O"  : "X"
   end
 
   def turn_count(board) do

@@ -45,3 +45,9 @@ I'm Avi Flombaum and you're here to watch me learn elixir as part of [Flatiron S
 Watch Live at:
 
 1. https://twitch.tv/flatironschool
+
+## Recordings
+
+1. [Part 1](https://www.youtube.com/watch?v=GGGKjL2V0tk)
+2. [Part 2](https://www.youtube.com/watch?v=BGPpbYFCFhs)
+3. [Part 3](https://www.youtube.com/watch?v=ZcNWKNvovis)
